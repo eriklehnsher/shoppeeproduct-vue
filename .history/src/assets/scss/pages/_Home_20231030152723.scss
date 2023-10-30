@@ -1,0 +1,15 @@
+
+.form__createProduct{
+    width: 100%;
+}
+.form__create {
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(80px, 1fr));
+gap: 4px;
+width: 100%;
+}
+.grid-item{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}

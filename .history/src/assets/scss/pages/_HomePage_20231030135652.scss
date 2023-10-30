@@ -1,0 +1,193 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+//? HomePage-main
+@import url("https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap");
+
+.homepage {
+
+  padding: 50px 200px;
+
+
+}
+
+
+.homepage__banner {
+  // padding: 50px 5%;
+  margin: 0;
+  height: auto;
+}
+
+.banner-flex {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.product__carousel {
+  width: 450px;
+  height: auto;
+  display: inline-flex;
+  padding: 20px;
+  align-items: flex-start;
+  gap: 22px;
+  border-radius: 23px;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.carousel {
+  border-radius: 10px;
+}
+
+.carousel-inner {
+  border-radius: 10px;
+}
+
+.main__productName {
+  width: 465px;
+  height: 66px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: inherit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: start;
+}
+
+.main__porductButton {
+  margin-top: 24px;
+  display: inline-flex;
+  padding: 6px 11px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  border-radius: 20px;
+  border: 1px solid #ff7227;
+  background: #fff;
+}
+
+.main__porductButton span {
+  color: #ff7227;
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main__porductButton .icon-noti {
+  color: #ff7227;
+}
+
+.main__porductButton:hover {
+  border-radius: 20px;
+  border: 1px solid #ff7227;
+  background: #ff7227;
+}
+
+.main__porductButton:hover span {
+  color: #fff;
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.main__porductButton:hover .icon-noti {
+  color: #fff;
+}
+
+.main__productPricefrom {
+  margin: 24px 0;
+}
+
+.main__productPrice span {
+  color: #dc2626;
+  font-family: inherit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.main__porductButtonPrice {
+  display: inline-flex;
+  padding: 14px 16px;
+  align-items: flex-start;
+  gap: 7px;
+  border: none;
+  border-radius: 6px;
+  background: #f4a276;
+  text-decoration: none;
+
+}
+
+.main__porductButtonPrice span {
+  color: #fff;
+  font-family: inherit;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main__porductButtonPrice .icon-price {
+  color: #fff;
+}
+
+.main__porductButtonPrice:hover {
+  display: inline-flex;
+  padding: 14px 16px;
+  align-items: flex-start;
+  gap: 7px;
+  border-radius: 6px;
+  background: #ff7227;
+}
+
+
+
+
+
+
+
+
+//? HomePage-About
+.homepage__about--content {
+  padding: 10px 10%;
+
+}
+
+.homepage__about__content {
+  border-radius: 10px 0px 0px 10px;
+  background-color: #CFEEEF;
+  padding: 10px;
+}
+
+.about-bg {
+  width: 480px;
+  height: 485px;
+  flex-shrink: 0;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.about-btn {
+  display: inline-flex;
+  padding: 10px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: #4EB7BB;
+}
+
+.about-btn:hover {
+  border-radius: 5px;
+  background: #6DE5E9;
+  box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.50), -2px -2px 4px 0px rgba(0, 0, 0, 0.50);
+}
