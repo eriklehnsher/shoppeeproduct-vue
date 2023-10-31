@@ -1,0 +1,35 @@
+.home-container {
+
+    width: 100%;
+    height: auto;
+}
+
+
+.carousel{
+    width: 100%;
+}
+
+
+.form__createProduct {
+    width: 100%;
+}
+
+// .container-grid {
+// display: grid;
+// grid-template-columns: repeat(auto-fit,minmax(80px, 1fr));
+// gap: 4px;
+// width: 100%;
+// }
+.container-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.grid-item{
+    width: 100%;
+}
+
+.product__list {
+    width: 100%;
+}
